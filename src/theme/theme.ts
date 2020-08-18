@@ -4,6 +4,7 @@ export const defaultTheme = {
   white: '#fff',
   highlighter: '#ffe872',
   gray: '#b7b4b9',
+  blue: '#75B6EF',
 };
 
 const dark: typeof defaultTheme = {
@@ -12,6 +13,7 @@ const dark: typeof defaultTheme = {
   white: '#141414',
   highlighter: '#FF3366',
   gray: '#b7b4b9',
+  blue: '#1B2CC1',
 };
 
 export const darkTheme = { ...dark };

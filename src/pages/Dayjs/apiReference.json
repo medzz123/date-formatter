@@ -1,0 +1,118 @@
+[
+  {
+    "title": "Year",
+    "data": [
+      { "input": "YY", "example": "18", "description": "Two-digit year" },
+      { "input": "YYYY", "example": "2018", "description": "Four-digit year" }
+    ]
+  },
+  {
+    "title": "Month",
+    "data": [
+      {
+        "input": "M",
+        "example": "1-12",
+        "description": "Month, beginning at 1"
+      },
+      { "input": "MM", "example": "01-12", "description": "Month, 2-digits" },
+      {
+        "input": "MMM",
+        "example": "Jan-Dec",
+        "description": "The abbreviated month name"
+      },
+      {
+        "input": "MMMM",
+        "example": "January-December",
+        "description": "The full month name"
+      }
+    ]
+  },
+  {
+    "title": "Day",
+    "data": [
+      { "input": "D", "example": "1-31", "description": "Day of month" },
+      {
+        "input": "DD",
+        "example": "01-31",
+        "description": "Day of month, 2-digits"
+      }
+    ]
+  },
+  {
+    "title": "Hour",
+    "data": [
+      { "input": "H", "example": "0-23", "description": "Hours" },
+      { "input": "HH", "example": "00-23", "description": "Hours, 2-digits" },
+      {
+        "input": "h",
+        "example": "1-12",
+        "description": "Hours, 12-hour clock"
+      },
+      {
+        "input": "hh",
+        "example": "01-12",
+        "description": "Hours, 12-hour clock, 2-digits"
+      }
+    ]
+  },
+  {
+    "title": "Minute",
+    "data": [
+      { "input": "m", "example": "0-59", "description": "Minutes" },
+      { "input": "mm", "example": "00-59", "description": "Minutes, 2-digits" }
+    ]
+  },
+  {
+    "title": "Second",
+    "data": [
+      { "input": "s", "example": "0-59", "description": "Seconds" },
+      { "input": "ss", "example": "00-59", "description": "Seconds, 2-digits" },
+      {
+        "input": "S",
+        "example": "0-9",
+        "description": "Hundreds of milliseconds, 1-digit"
+      },
+      {
+        "input": "SS",
+        "example": "00-99",
+        "description": "Tens of milliseconds, 2-digits"
+      },
+      {
+        "input": "SSS",
+        "example": "000-999",
+        "description": "Milliseconds, 3-digits"
+      }
+    ]
+  },
+  {
+    "title": "Time Zone",
+    "data": [
+      { "input": "Z", "example": "-05:99", "description": "Offset from UTC" },
+      {
+        "input": "ZZZ",
+        "example": "-0500",
+        "description": "Compact offset from UTC, 2-digits"
+      }
+    ]
+  },
+  {
+    "title": "Other",
+    "data": [
+      {
+        "input": "A",
+        "example": "AM PM",
+        "description": "Post or ante meridiem, upper-case"
+      },
+      {
+        "input": "a",
+        "example": "am pm",
+        "description": "Post or ante meridiem, lower-case"
+      },
+      {
+        "input": "Do",
+        "example": "1st...",
+        "description": "Day of Month with ordinal"
+      }
+    ]
+  }
+]

@@ -4,7 +4,7 @@ const Layout: React.FC = (props) => {
   const { children } = props;
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       {children}
     </div>
   );
